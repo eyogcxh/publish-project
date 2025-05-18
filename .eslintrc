@@ -10,7 +10,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -25,7 +26,8 @@
     "react",
     "@typescript-eslint",
     "react-hooks",
-    "import"
+    "import",
+    "prettier"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
@@ -33,6 +35,7 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "warn",
     "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "prettier/prettier": "error",
     "import/order": [
       "error",
       {

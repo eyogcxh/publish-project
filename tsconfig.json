@@ -33,7 +33,7 @@
   "include": [
     "src",
     "custom.d.ts"
-  ],
+, "src/modules/example/Example.tsx", "src/modules/example/index.ts"  ],
   "exclude": [
     "node_modules",
     "dist"
